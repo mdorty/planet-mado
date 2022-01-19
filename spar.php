@@ -6,7 +6,7 @@
 require_once('config.php');
 session_start();
 
-if($_SESSION['username'] != "Mado" && $_SESSION['password'] != "aidenscott"){
+if($_SESSION['username'] != "Mado" && $_SESSION['password'] != "adminpassword"){
 	header("location:http://www.planetmado.com/index.php?pageid=wrongpass");
 	exit;
 }
