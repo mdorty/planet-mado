@@ -7,7 +7,7 @@ date_default_timezone_set('America/Los_Angeles');
 
 $dbhostname="localhost";
 $dbusername="planetm6_auto";
-$dbpassword="99eclipse";
+$dbpassword="";
 $database="planetm6_autoupdate";
 
 mysql_connect("$dbhostname", "$dbusername", "$dbpassword") or die("cannot connect to server"); 
